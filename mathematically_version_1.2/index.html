@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="mainBody">
+        <div id="divTitle">
+            <div id="yellow"></div>
+            <div class="childBody">
+                <h1 id="title">mathematically</h1>
+            </div>
+            <div id="purple"></div>
+        </div>
+        <div id="getUniqueNumber">
+            <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+            <div class="containerBox">
+                <div class="box"><img src="img/zero.jpg" alt=""></div>
+                <div class="box"><img src="img/one.jpg" alt=""></div>
+                <div class="box"><img src="img/two.jpg" alt=""></div>
+                <div class="box"><img src="img/three.jpg" alt=""></div>
+                <div class="box"><img src="img/four.jpg" alt=""></div>
+                <div class="box"><img src="img/five.jpg" alt=""></div>
+                <div class="box"><img src="img/six.jpg" alt=""></div>
+                <div class="box"><img src="img/seven.jpg" alt=""></div>
+                <div class="box"><img src="img/eight.jpg" alt=""></div>
+                <div class="box"><img src="img/nine.jpg" alt=""></div>
+            </div>
+            <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+            <button onclick="generateUniqueRandomNumber(), disableButton()" id="myMainButton">play with
+                computer😉</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="inputContainer">
+            <p class="subTitle">enter your guess</p>
+            <div class="inputRow">
+                <p class="bullet">1</p>
+                <input type="text" id="myInput1" class="myGuessInput" value="" onkeydown="handleEnter1(event)"
+                    onfocus="myFunctionY(this)">
+                <p id="myP1" class="myPFeedback"></p>
+            </div>
+            <div class="inputRow">
+                <p class="bullet">2</p>
+                <input type="text" id="myInput2" class="myGuessInput" value="" onkeydown="handleEnter2(event)"
+                    onfocus="myFunctionY(this)">
+                <p id="myP2" class="myPFeedback"></p>
+            </div>
+            <div class="inputRow">
+                <p class="bullet">3</p>
+                <input type="text" id="myInput3" class="myGuessInput" value="" onkeydown="handleEnter3(event)"
+                    onfocus="myFunctionY(this)">
+                <p id="myP3" class="myPFeedback"></p>
+            </div>
+            <div class="inputRow">
+                <p class="bullet">4</p>
+                <input type="text" id="myInput4" class="myGuessInput" value="" onkeydown="handleEnter4(event)"
+                    onfocus="myFunctionY(this)">
+                <p id="myP4" class="myPFeedback"></p>
+            </div>
+            <div class="inputRow">
+                <p class="bullet">5</p>
+                <input type="text" id="myInput5" class="myGuessInput" value="" onkeydown="handleEnter5(event)"
+                    onfocus="myFunctionY(this)">
+                <p id="myP5" class="myPFeedback"></p>
+            </div>
+            <div class="inputRow">
+                <p class="bullet">6</p>
+                <input type="text" id="myInput6" class="myGuessInput" value="" onkeydown="handleEnter6(event)"
+                    onfocus="myFunctionY(this)">
+                <p id="myP6" class="myPFeedback"></p>
+            </div>
+            <div class="inputRow">
+                <p class="bullet">7</p>
+                <input type="text" id="myInput7" class="myGuessInput" value="" onkeydown="handleEnter7(event)"
+                    onfocus="myFunctionY(this)">
+                <p id="myP7" class="myPFeedback"></p>
+            </div>
+            <div class="inputRow">
+                <p class="bullet">8</p>
+                <input type="text" id="myInput8" class="myGuessInput" value="" onkeydown="handleEnter8(event)"
+                    onfocus="myFunctionY(this)">
+                <p id="myP8" class="myPFeedback"></p>
+            </div>
+            <div class="inputRow">
+                <p class="bullet">9</p>
+                <input type="text" id="myInput9" class="myGuessInput" value="" onkeydown="handleEnter9(event)"
+                    onfocus="myFunctionY(this)">
+                <p id="myP9" class="myPFeedback"></p>
+            </div>
+        </div>
+        <div class="worksheetContainer">
+            <p class="subTitle">scratchpad</p>
+            <div>
+                <textarea id="scratchpad" name="scratchpad" rows="19" cols="40" placeholder=""
+                    onfocus="myFunctionX(this)"></textarea>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
